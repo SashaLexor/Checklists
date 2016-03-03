@@ -74,10 +74,10 @@
 				276056251C804EE200C82585 /* IconPickerViewController.swift */,
 				2732FF161C7B393400497A80 /* Checklist.swift */,
 				273AD4011C74BC7B009CAE8B /* ChecklistItem.swift */,
+				274332871C7C701500FCDCBA /* DataModel.swift */,
 				2783F8BF1C739C85006F5A68 /* Main.storyboard */,
 				276056271C80A76A00C82585 /* Assets.xcassets */,
 				2783F8C71C739C85006F5A68 /* Info.plist */,
-				274332871C7C701500FCDCBA /* DataModel.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";

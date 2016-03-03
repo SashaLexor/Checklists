@@ -23,7 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         controller.dataModel = dataModel
         
+        
+        // получаем разрешение на получения локальных оповещений
+        
+        let notificationSettings = UIUserNotificationSettings(forTypes: [.Alert, .Sound], categories: nil)
+        UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
+        
         return true
+    }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        print("didReceiveLocalNotification \(notification)")
     }
 
     func applicationWillResignActive(application: UIApplication) {
